@@ -1,0 +1,36 @@
+version: 0.0.1
+type: plugin
+author: kazuya-awano
+name: simple-text-exporter
+label:
+  en_US: simple-text-exporter
+  ja_JP: simple-text-exporter
+  zh_Hans: simple-text-exporter
+  pt_BR: simple-text-exporter
+description:
+  en_US: Export text to textfile
+  ja_JP: Export text to textfile
+  zh_Hans: Export text to textfile
+  pt_BR: Export text to textfile
+icon: icon.svg
+icon_dark: icon-dark.svg
+resource:
+  memory: 268435456
+  permission: {}
+plugins:
+  tools:
+    - provider/simple-text-exporter.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: 1.0.0
+created_at: 2025-09-30T09:46:56.625283351+09:00
+privacy: PRIVACY.md
+repo: https://github.com/kazuya-awano/simple-text-exporter
+verified: false

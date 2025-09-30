@@ -1,0 +1,49 @@
+identity:
+  name: "simple-text-exporter"
+  author: "kazuya-awano"
+  label:
+    en_US: "simple-text-exporter"
+    zh_Hans: "simple-text-exporter"
+    pt_BR: "simple-text-exporter"
+    ja_JP: "simple-text-exporter"
+description:
+  human:
+    en_US: "Export text to textfile"
+    zh_Hans: "Export text to textfile"
+    pt_BR: "Export text to textfile"
+    ja_JP: "Export text to textfile"
+  llm: "Export text to textfile"
+parameters:
+  - name: text
+    type: string
+    required: true
+    label:
+      en_US: Text
+      zh_Hans: Text
+      pt_BR: Text
+      ja_JP: Text
+    human_description:
+      en_US: "Text for export."
+      zh_Hans: "Text for export."
+      pt_BR: "Text for export."
+      ja_JP: "Text for export."
+    llm_description: "Text for export."
+    form: llm
+  - name: output_filename
+    type: string
+    required: false
+    label:
+      en_US: Output Filename
+      zh_Hans: Output Filename
+      pt_BR: Output Filename
+      ja_JP: Output Filename
+    human_description:
+      en_US: "Optional output file name."
+      zh_Hans: "Optional output file name."
+      pt_BR: "Optional output file name."
+      ja_JP: "Optional output file name."
+    llm_description: "Optional output file name."
+    form: llm
+extra:
+  python:
+    source: tools/simple-text-exporter.py
