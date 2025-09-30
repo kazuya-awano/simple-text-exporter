@@ -3,15 +3,15 @@ type: plugin
 author: kazuya-awano
 name: simple-text-exporter
 label:
-  en_US: simple-text-exporter
-  ja_JP: simple-text-exporter
-  zh_Hans: simple-text-exporter
-  pt_BR: simple-text-exporter
+  en_US: Simple Text Exporter
+  ja_JP: Simple Text Exporter
+  zh_Hans: Simple Text Exporter
+  pt_BR: Simple Text Exporter
 description:
-  en_US: Export text to textfile
-  ja_JP: Export text to textfile
-  zh_Hans: Export text to textfile
-  pt_BR: Export text to textfile
+  en_US: Export any text as a downloadable text file.
+  ja_JP: 任意のテキストをテキストファイルとしてダウンロードします。
+  zh_Hans: 将任意文本导出为可下载的文本文件。
+  pt_BR: Exporte qualquer texto como um arquivo de texto para download.
 icon: icon.svg
 icon_dark: icon-dark.svg
 resource:

@@ -19,7 +19,4 @@ class SimpleTextExporterTool(Tool):
                 "output_filename": output_filename,
             }
         )
-        yield self.create_text_message(
-            text=output_filename
-        )
         return
