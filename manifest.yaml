@@ -1,0 +1,38 @@
+version: 0.0.1
+type: plugin
+author: kazuya-awano
+name: simple-text-exporter
+tags:
+  - utilities
+label:
+  en_US: Simple Text Exporter
+  ja_JP: Simple Text Exporter
+  zh_Hans: Simple Text Exporter
+  pt_BR: Simple Text Exporter
+description:
+  en_US: Export any text as a downloadable text file.
+  ja_JP: 任意のテキストをテキストファイルとしてダウンロードします。
+  zh_Hans: 将任意文本导出为可下载的文本文件。
+  pt_BR: Exporte qualquer texto como um arquivo de texto para download.
+icon: icon.svg
+icon_dark: icon-dark.svg
+resource:
+  memory: 268435456
+  permission: {}
+plugins:
+  tools:
+    - provider/simple-text-exporter.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: 1.0.0
+created_at: 2025-09-30T09:46:56.625283351+09:00
+privacy: PRIVACY.md
+repo: https://github.com/kazuya-awano/simple-text-exporter
+verified: false
