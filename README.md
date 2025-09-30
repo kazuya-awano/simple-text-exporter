@@ -1,15 +1,18 @@
-## simple-text-exporter
+# simple-text-exporter
+Export arbitrary text into a downloadable text file.  
+This plugin is designed for [Dify](https://dify.ai/) and allows you to convert any text input into a textfile.
 
-**Author:** kazuya-awano
-**Version:** 0.0.1
-**Type:** tool
+**Author:** [kazuya-awano](https://github.com/kazuya-awano)  
+**Github Repository:** https://github.com/kazuya-awano/simple-text-exporter  
 
-### Description
-  **Input:** Text  
-  **Output:** Text file  
-
-  This plugin allows you to download arbitrary text as a file.  
-  It uses the environment variable `FILES_URL` to generate the download URL, so you must configure this variable before use.  
+## Features
+- **Input:** Text
+- **Output:** Text file
+- Lightweight and simple
+- Generate downloadable links using the `FILES_URL` environment variable
 
   For more details on configuring `FILES_URL`, see the official documentation:  
   https://docs.dify.ai/en/getting-started/install-self-hosted/environments#files-url
+
+## License
+Apache License 2.0
