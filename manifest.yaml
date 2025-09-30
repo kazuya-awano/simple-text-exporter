@@ -2,6 +2,8 @@ version: 0.0.1
 type: plugin
 author: kazuya-awano
 name: simple-text-exporter
+tags:
+  - utilities
 label:
   en_US: Simple Text Exporter
   ja_JP: Simple Text Exporter
