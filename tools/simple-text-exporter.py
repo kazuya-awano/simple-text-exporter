@@ -16,7 +16,7 @@ class SimpleTextExporterTool(Tool):
             blob=result_file_bytes,
             meta={
                 "mime_type": MimeType.guess_mime_type(output_filename),
-                "output_filename": output_filename,
+                "filename": output_filename,
             }
         )
         return
