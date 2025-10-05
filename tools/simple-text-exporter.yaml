@@ -44,6 +44,21 @@ parameters:
       ja_JP: "出力ファイル名。"
     llm_description: "Name of the output file."
     form: llm
+  - name: add_timestamp
+    type: boolean
+    required: false
+    label:
+      en_US: Add timestamp to filename
+      zh_Hans: 在文件名中添加时间戳
+      pt_BR: Adicionar carimbo de data/hora ao nome do arquivo
+      ja_JP: ファイル名にタイムスタンプを追加
+    human_description:
+      en_US: "Appends a timestamp to the output filename."
+      zh_Hans: "在输出文件名中附加时间戳。"
+      pt_BR: "Adiciona um carimbo de data/hora ao nome do arquivo de saída."
+      ja_JP: "出力ファイル名にタイムスタンプを追加します。"
+    llm_description: "Append timestamp to the output filename."
+    form: llm
 extra:
   python:
     source: tools/simple-text-exporter.py
